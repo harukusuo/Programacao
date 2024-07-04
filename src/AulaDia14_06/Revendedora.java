@@ -1,4 +1,4 @@
-package AulaDia14_05;
+package AulaDia14_06;
 
 public class Revendedora {
     public static void main(String[] args){
