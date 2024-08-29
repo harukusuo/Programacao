@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d91ba98-c0a5-4a11-809b-653dfccb1190" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AulaDia28_06/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AulaDia28_06/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AulaDia28_06/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AulaDia28_06/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AulaDia28_06/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AulaDia28_06/ContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,6 @@
   <component name="ProjectId" id="2iAAcwQOBkMTOxERhMbIuOAZYbE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -43,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/sarah/IdeaProjects/Programacao/src/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/sarah/IdeaProjects/Programacao/src/Main.java",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RunManager" selected="Application.LerPessoa">
