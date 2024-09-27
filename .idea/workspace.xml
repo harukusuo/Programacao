@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d91ba98-c0a5-4a11-809b-653dfccb1190" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,23 +34,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Exemplo1.executor": "Run",
+    "Application.ExemploHashMap.executor": "Run",
+    "Application.ExemploHashSet.executor": "Run",
     "Application.GravarPessoa.executor": "Run",
     "Application.LerPessoa.executor": "Run",
+    "Application.Teste3.executor": "Run",
+    "Application.Teste5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/sarah/IdeaProjects/Programacao/src/Main.java",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LerPessoa">
-    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AulaDia12_07.Exemplo1" />
+  <component name="RunManager" selected="Application.Teste5">
+    <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaDia27_09.Collections.ExemploHashMap" />
       <module name="Programacao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AulaDia12_07.*" />
+          <option name="PATTERN" value="AulaDia27_09.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GravarPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AulaDia12_07.ExemploArquivo.GravarPessoa" />
+    <configuration name="ExemploHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaDia27_09.Collections.ExemploHashSet" />
       <module name="Programacao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AulaDia12_07.ExemploArquivo.*" />
+          <option name="PATTERN" value="AulaDia27_09.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teste3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaDia27_09.Lista.Teste3" />
+      <module name="Programacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AulaDia27_09.Lista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaDia27_09.Lista.Teste5" />
+      <module name="Programacao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AulaDia27_09.Lista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste5" />
+        <item itemvalue="Application.ExemploHashMap" />
+        <item itemvalue="Application.Teste3" />
+        <item itemvalue="Application.ExemploHashSet" />
         <item itemvalue="Application.LerPessoa" />
-        <item itemvalue="Application.GravarPessoa" />
-        <item itemvalue="Application.Exemplo1" />
       </list>
     </recent_temporary>
   </component>
