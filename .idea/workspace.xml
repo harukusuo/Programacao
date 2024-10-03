@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d91ba98-c0a5-4a11-809b-653dfccb1190" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AulaDia27_09/ExercicioHospital/Atendimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AulaDia27_09/ExercicioHospital/Atendimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AulaDia27_09/ExercicioHospital/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AulaDia27_09/ExercicioHospital/Paciente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,7 @@
     "Application.ExemploHashSet.executor": "Run",
     "Application.GravarPessoa.executor": "Run",
     "Application.LerPessoa.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Teste3.executor": "Run",
     "Application.Teste5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -49,7 +51,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Teste5">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AulaDia27_09.Collections.ExemploHashMap" />
       <module name="Programacao" />
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LerPessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AulaDia12_07.ExemploArquivo.LerPessoa" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AulaDia27_09.ExercicioHospital.Main" />
       <module name="Programacao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AulaDia12_07.ExemploArquivo.*" />
+          <option name="PATTERN" value="AulaDia27_09.ExercicioHospital.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teste5" />
         <item itemvalue="Application.ExemploHashMap" />
         <item itemvalue="Application.Teste3" />
         <item itemvalue="Application.ExemploHashSet" />
-        <item itemvalue="Application.LerPessoa" />
       </list>
     </recent_temporary>
   </component>

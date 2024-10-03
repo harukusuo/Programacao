@@ -23,6 +23,10 @@ public class Paciente {
         this.nome = nome;
     }
 
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
     public LocalDate getDataNascimento() {
         return dataNascimento;
     }
@@ -48,10 +52,10 @@ public class Paciente {
     }
     @Override
     public String toString(){
-        String retorno = "Nome: "+nome+" "+sobrenome;
+        String retorno = "Nome: "+nome+" "+sobrenome+"\n";
         DateTimeFormatter formatoBr = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         String data = formatoBr.format(this.dataNascimento);
-        retorno += "Data de nascimrnto: "+data;
+        retorno += "Data de nascimento: "+data+"\n";
         retorno += "Idade: "+getidade();
         return retorno;
     }
