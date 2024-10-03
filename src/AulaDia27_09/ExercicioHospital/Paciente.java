@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Paciente {
     private String nome;
@@ -58,5 +59,18 @@ public class Paciente {
         retorno += "Data de nascimento: "+data+"\n";
         retorno += "Idade: "+getidade();
         return retorno;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Paciente paciente = (Paciente) o;
+        return Objects.equals(nome, paciente.nome) && Objects.equals(sobrenome, paciente.sobrenome);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, sobrenome);
     }
 }

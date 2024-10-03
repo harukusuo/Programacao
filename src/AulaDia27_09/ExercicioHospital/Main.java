@@ -27,7 +27,7 @@ public class Main {
 
         Paciente novoPaciente = new Paciente();
         novoPaciente.setNome(nome);
-        novoPaciente.setSobrenome(sobrenome); // Aqui
+        novoPaciente.setSobrenome(sobrenome);
         novoPaciente.setDataNascimento(dataNasc);
         pacientes.add(novoPaciente);
         System.out.println("Paciente cadastrado com sucesso.");
@@ -65,7 +65,7 @@ public class Main {
         if (paciente != null) {
             System.out.println("Informe a descrição do atendimento:");
             String descricao = ler.nextLine();
-            Atendimento atendimento = new Atendimento(LocalDate.now(), descricao); // Passa a data atual corretamente
+            Atendimento atendimento = new Atendimento(LocalDate.now(), descricao);
             paciente.adicionarConsulta(atendimento);
             System.out.println("Atendimento registrado com sucesso.");
         } else {
@@ -80,8 +80,12 @@ public class Main {
             System.out.println("Sem pacientes.");
             return;
         }
-        for (Paciente paciente : pacientes) {
-            System.out.println(paciente);
+        for (int i = 0; i < pacientes.size(); i++) {
+            System.out.println(pacientes.get(i));
+            if ((i + 1) % 5 == 0) {
+                System.out.println("Pressione Enter para continuar...");
+                ler.nextLine();
+            }
         }
     }
 
